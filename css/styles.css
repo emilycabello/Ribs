@@ -2,13 +2,114 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     min-height: 100vh;
     width: 100%;
+    text-decoration: none;
 }
 
 html {
     background-color: lightblue; 
+    font-family: "oooh baby";
+    text-decoration: none;
 }
+
+
+/*=======headings==========*/
+
+.container h1 {
+    color: #CBE2E9;
+    font-size: 70px;
+    text-decoration: none;
+    text-shadow:1px 1px 50px #CBE2E9, 1px 1px 5px #CBE2E9;
+    font-weight: 800;
+}
+
+.container h3 {
+    color: #CBE2E9;
+    font-size: 50px;
+    text-decoration: none;
+    text-shadow:1px 1px 50px #CBE2E9, 1px 1px 5px #CBE2E9;
+    font-weight:100;
+}
+
+
+/*=======container==========*/
+
+.container {
+    width: 1440px;
+    height: 812px;
+    padding-top: 10%;
+    padding-left: 20%;
+    background-color: #783457;
+
+   
+}
+
+
+/*=======more==========*/
+
+a {
+    color: inherit;
+}
+
+
+/*=======more==========*/
+
+.want {
+
+}
+
+.echo {
+
+}
+
+.minds {
+
+}
+
+.thoughts {
+
+}
+
+.moved {
+
+}
+
+.want2 {
+
+}
+
+.minds2 {
+
+}
+
+.enough {
+
+}
+
+.want3 {
+
+}
+
+.only {
+
+}
+
+.sharing {
+
+}
+
+.laughing {
+
+}
+
+.enough {
+
+}
+
+
+
