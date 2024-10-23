@@ -228,7 +228,7 @@ to {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-direction:normal;
-    animation-duration: 0.4s;
+    animation-duration: 1s;
     animation-play-state: running;
    
     
@@ -261,7 +261,7 @@ to {
 
 #bounce h3  {
     animation-name: bounce;
-    animation-delay: calc(200ms * var(--i));
+    animation-delay: none;
     animation-fill-mode:forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -318,7 +318,7 @@ to {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-direction:normal;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-play-state: running;
     position:relative;
 }
@@ -352,7 +352,7 @@ to {
     position:absolute;
     top:200px;
     left: 670px;
-    color: pink;
+    color: #0ea9a9;
 }
 
 #only:hover{
@@ -376,39 +376,103 @@ transition:2s;
     transition:2s;
     }
 
-#butthat{
-    position:absolute;
-    top:400px;
-    left: 400px;
+
+
+#skinny {
+    font-family: oooh baby;
+    font-weight:100;
+}
+
+#skinny6 {
+    font-family: oooh baby;
+    font-weight:100;
+    margin-top: -100px;
+}
+
+
+#spacer{
+    padding-bottom: 40px;
 }
 
 
 
+#and {
+    position:relative;
+    left:-370px;
+
+}
 
 
-
-#butthat{
-    animation-name: meow;
+#enough2{
+    position:absolute;
+    top:150px;
+    left:430px;
+    animation-name: enough2;
     animation-delay: 0s;
     animation-fill-mode:forwards;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-direction: normal;
-    animation-duration: 3s;
+    animation-duration: 5s;
     position:absolute;
-    top: 300px;
+
 
 }
 
-@keyframes meow{
-    0% {
+@keyframes enough2{
+   0%,100%{
+   }
         
-        letter-spacing: 20px;
-    }
-    100% {
-        bottom: 0px;
-    }
+   50%{
+    transform:rotateY(360deg) scale(1.2) skew(30deg);
 }
+    
+}
+
+
+
+
+#tough{
+    position:absolute;
+    top:150px;
+    left:1050px;
+    animation-name: tough;
+    animation-delay: 0s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-duration: 5s;
+    position:absolute;
+
+
+}
+
+@keyframes tough{
+   0%,100%{
+    transform: translateY(-20px);
+   }
+        
+   50%{
+    transform:scale(1.2) translateY(20px);
+}
+    
+}
+
+
+
+
+
+#til{
+    position:relative;
+    top:-120px;
+    left:120px;
+}
+
+
+
+
+
 
 
 #enough{
